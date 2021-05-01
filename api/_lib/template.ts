@@ -67,10 +67,10 @@ function getCss(theme: string, fontSize: string) {
 
     .logo-wrapper {
         display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        justify-items: center;
+        align-items: flex-strart;
+        align-content: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
     }
 
     .logo {
@@ -84,7 +84,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .spacer {
-        margin: 150px;
+        margin: 150px 80px 0;
     }
 
     .emoji {
