@@ -14,12 +14,10 @@ const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('ba
 function getCss(theme: string, fontSize: string) {
     let background = '#F5F1E3';
     let foreground = 'black';
-    let radial = 'lightgray';
 
     if (theme === 'dark') {
         background = 'black';
         foreground = 'white';
-        radial = 'dimgray';
     }
     return `
     @font-face {
@@ -71,10 +69,11 @@ function getCss(theme: string, fontSize: string) {
         align-content: flex-start;
         justify-content: flex-start;
         justify-items: flex-start;
+        margin: 0 100px;
     }
 
     .logo {
-        margin: 0;
+        margin: 0 100px;
     }
 
     .plus {
@@ -84,7 +83,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .spacer {
-        margin: 200px 100px 0;
+        margin: 200px 100px 0 100px;
     }
 
     .emoji {
