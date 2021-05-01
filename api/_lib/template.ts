@@ -84,7 +84,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .spacer {
-        margin: 150px 80px 0;
+        margin: 200px 80px 0;
     }
 
     .emoji {
