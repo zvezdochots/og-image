@@ -12,7 +12,7 @@ const bold = readFileSync(`${__dirname}/../_fonts/notosans-bold-webfont.woff2`).
 const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('base64');
 
 function getCss(theme: string, fontSize: string) {
-    let background = 'white';
+    let background = '#F5F1E3';
     let foreground = 'black';
     let radial = 'lightgray';
 
@@ -50,7 +50,7 @@ function getCss(theme: string, fontSize: string) {
         height: 100vh;
         display: flex;
         text-align: left;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
     }
 
