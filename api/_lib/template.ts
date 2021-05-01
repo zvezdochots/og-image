@@ -74,7 +74,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .logo {
-        margin: 0 150px;
+        margin: 0;
     }
 
     .plus {
@@ -84,7 +84,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .spacer {
-        margin: 200px 80px 0;
+        margin: 200px 100px 0;
     }
 
     .emoji {
